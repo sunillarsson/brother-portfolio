@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Neue Haas Unica Web", -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+
+h1 {
+    font-size: 4em;
+}
+
+#top {
+    margin-top: 50px;
+   
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.content { 
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.text {
+    display: inline-block;
+    text-align: justify;
+}
+
+#aboutme {
+    margin-top: 40px;
+}
+
+
+a {
+    text-decoration: none !important;
+    color: darkgrey;
+    font-size: 25px;
+}
+
+a:hover {
+    color: #5CDBA4;
+}
+
+#nav {
+    text-align: right;
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+}
+
+#nav a {
+    font-size: 18px;
+}
+
+#webtext {
+    margin-top: 40px;
+}
+#webtext p {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding-left: 5px;
+    color: darkgrey;
+}
+
+.logo {
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    
+    .content {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    
+    
+    .logo{
+        display: none; 
+    }
+    .text {
+        text-align: left;
+    }
+    h1 {font-size:3em}
+}
