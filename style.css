@@ -49,11 +49,12 @@ a:hover {
 #nav {
     text-align: right;
     margin-top: 50px;
-    border-bottom: 3px dotted black;
+    border-bottom: 2px dotted black;
 }
 
 #nav a {
-    font-size: 18px;
+    font-size: 14px;
+    color: black;
 }
 
 #webtext {
