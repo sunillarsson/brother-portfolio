@@ -42,9 +42,10 @@ a {
     font-size: 25px;
 }
 
-a:hover {
+a:hover, #nav a:hover {
     color: #5CDBA4;
 }
+
 
 #nav {
     text-align: right;
@@ -56,6 +57,7 @@ a:hover {
     font-size: 14px;
     color: black;
 }
+
 
 #webtext {
     margin-top: 30px;
