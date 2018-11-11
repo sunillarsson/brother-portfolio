@@ -81,10 +81,10 @@ li a {
 }
 
 .logo {
-    font-size: 20px;
+    font-size: 22px;
     display: block;
     text-decoration: none;
-    font-weight: 200;
+
 }
 
 @media only screen and (max-width: 1200px) {
