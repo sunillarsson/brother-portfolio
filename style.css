@@ -50,7 +50,7 @@ a:hover, #nav a:hover {
 #nav {
     text-align: right;
     margin-top: 50px;
-    border-bottom: 2px dotted black;
+    border-bottom: 1px solid black;
 }
 
 #nav a {
